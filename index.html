@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/5d50aa5c0c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+  </head>
+  <body>
+    <div class="circle1 circle"></div>
+    <div class="circle2 circle"></div>
+    <section>
+      <div class="upper">
+        <h1>Todo-List</h1>
+        <h4 class="select">Select</h4>
+      </div>
+      <form action="">
+        <input type="text" placeholder="Type here..." required />
+        <button type="submit" class="add">Add</button>
+      </form>
+      <div class="list">
+        <!-- <div class="item">
+          <div class="item-container">
+            <div>
+              <label class="switch">
+                <input type="checkbox" class="check-input" />
+                <span class="check"></span>
+              </label>
+            </div>
+            <h3>Do your daily coding!</h3>
+          </div>
+          <h5>2023/05/16</h5>
+        </div> -->
+      </div>
+      <div class="lower">
+        <h4 class="time">Time</h4>
+        <div class="buttons-container">
+          <button id="clear" class="manage">
+            <h4>Clear</h4>
+          </button>
+          <button id="remove" class="manage">
+            <h4>Remove</h4>
+          </button>
+          <button id="sort" class="manage">
+            <div class="sort-menu-parent">
+              <div class="sort-menu">
+                <h4 id="a-to-z" class="sort-btn">A to Z</h4>
+                <h4 id="z-to-a" class="sort-btn">Z to A</h4>
+                <h4 id="sort-date" class="sort-btn">Date</h4>
+                <h4 id="sort-complete" class="sort-btn">Completed</h4>
+              </div>
+            </div>
+            <h4 class="sort"><i class="fa-solid fa-arrow-up"></i> Sort</h4>
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
